@@ -34,16 +34,15 @@
 		<input required type="date" id="dob" name="dob">
 		<br><br>
 		<label for="phone">Mobile Number:</label>
-		<input  required type="tel" id="phone" name="phone" placeholder="xxx-xxx-xxxx">
+		<input  required type="tel" id="phone" name="phone" placeholder="xxx-xxx-xxxx" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
 		<br><br>
 		<label for="password">Password:</label>
 		<input required type="password" id="password" name="password" placeholder="Password here">
 		<br><br>
-		<label for="checkbox">I agree to the TOS</label>
+		<label for="tos">I agree to the TOS</label>
 		<input type="checkbox" id="checkbox" name="checkbox">
 		<br><br>
-		
-		<input type="button"  value="submit">
+		<button type="button">Submit</button>
 		
 	</form>
     <script type="text/javascript" src="./script.js">
