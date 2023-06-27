@@ -8,12 +8,12 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-	<form method="get">
+	<form method="post">
 		<label for="name">Name:</label>
-		<input type="text" id="name" name="name" placeholder="Enter your name">
+		<input required type="text" id="name" name="name" placeholder="Enter your name">
 		<br><br>
 		<label for="email">Email:</label>
-		<input type="email" id="email" name="email" placeholder="Enter your email">
+		<input required type="email" id="email" name="email" placeholder="Enter your email">
        <br><br>
 		<label for="gender">Gender :</label>
 		<input type="radio" id="gender" value="Female" name="gender">Female</input>
@@ -31,19 +31,19 @@
 		<input required type="text" id="age" name="age" placeholder="Enter your age">
 		<br><br>
 		<label for="dob">Date of birth:</label>
-		<input type="date" id="dob" name="dob">
+		<input required type="date" id="dob" name="dob">
 		<br><br>
-		<label for="mobilenumber">Mobile Number:</label>
-		<input type="tel" id="mobilenumber" name="mobilenumber" placeholder="xxx-xxx-xxxx">
+		<label for="tel">Mobile Number:</label>
+		<input  required type="tel" id="mobilenumber" name="mobilenumber" placeholder="xxx-xxx-xxxx">
 		<br><br>
 		<label for="password">Password:</label>
-		<input type="password" id="password" name="password" placeholder="Password here">
+		<input required type="password" id="password" name="password" placeholder="Password here">
 		<br><br>
 		<label for="checkbox">I agree to the TOS</label>
 		<input type="checkbox" id="checkbox" name="checkbox">
 		<br><br>
-		<label for="submit">Click here to submit</label>
-		<input type="submit" id="submit" name="submit">
+		<label for="tos">Click here to submit</label>
+		<input type="button" id="submit" name="submit" value="submit"></input>
 		
 	</form>
     <script type="text/javascript" src="./script.js">
